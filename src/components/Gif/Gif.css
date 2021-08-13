@@ -1,0 +1,27 @@
+.Gif{
+    border: 2px solid #eaeaea;
+    border-radius: 6px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+a{
+    text-decoration:  none;
+    color: white;
+}
+
+.Gif img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.Gif h5{
+    margin:10px;
+}
+
+.Gif small{
+    margin-bottom: 10px;
+    font-size:  12px;
+}
