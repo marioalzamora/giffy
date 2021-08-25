@@ -31,24 +31,26 @@
   } */
 
   :root{
-    --results-columns:2;
+    --gridList-column: 250px;
+    --gridList-rows: 250px;
+    --gridList-gap: 6px;
   }
 
   .ListOfGifs{
-    column-count: var(--results-columns);
-    column-gap: .5em;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(var(--gridList-column), 1fr));
+    gap: 0 16px;
+    align-items: center;
   }
 
   .ListOfGifs-item{
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
     background-color: #eee;
     display: inline-block;
     width:100%;
   }
 
-  @media (min-width: 600px){
+  /* @media (min-width: 600px){
     :root {
       --result-columns:3;
     }
@@ -58,4 +60,4 @@
     :root {
       --result-columns:4;
     }
-  }
+  } */

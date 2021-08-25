@@ -1,0 +1,16 @@
+.categoryContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.categoryItem{
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
