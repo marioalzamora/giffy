@@ -19,6 +19,7 @@ export default function Home(){
         <div>
             <Helmet>
                 <title>Home | Giffy</title>
+                <link rel="cannonical" href="https://maritocapocabj.com"></link>
             </Helmet>
             <SearchForm onSubmit={handleSubmit} />
             <h3 className="App-title">Última búsqueda</h3>
